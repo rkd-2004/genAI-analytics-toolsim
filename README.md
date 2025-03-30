@@ -43,13 +43,16 @@ Designed to demonstrate how AI can democratize data insights by allowing non-tec
 
 ### Installation
 
-## 1. git clone https://github.com/rkd-2004/genAI-analytics-toolsim.git
+## 1. Clone the repository
+git clone https://github.com/rkd-2004/genAI-analytics-toolsim.git
+
 cd genAI-analytics-toolsim
 
+## 2. Running Locally
 npm install
 
-## 2. Running Locally
 npm run dev
+
 Open http://localhost:3000 in your browser.
 
 ### API Documentation
@@ -61,7 +64,9 @@ All endpoints require:
 **Endpoints**
 **Endpoint	Method	Description**
 /api/query	POST	Process natural language queries
+
 /api/explain	POST	Get query explanations
+
 /api/validate	POST	Validate query feasibility
 
 ### Testing
@@ -70,6 +75,7 @@ curl Examples
 # Query endpoint
 curl -X POST https://genai-analytics-toolsim.vercel.app/api/query \
   -H "Authorization: Bearer demo-api-key-123" \
+  
   -d '{"query":"Show sales by region"}'
   
 ### Mock Database
@@ -85,7 +91,7 @@ orders
 
 employees
 
-### Future Enhancements
+## Future Enhancements
 1. Advanced NLP techniques
 
 2. Real database connectivity
