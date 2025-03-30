@@ -4,7 +4,7 @@
 
 A lightweight backend service that simulates an AI-powered data query system, allowing users to process natural language queries, get explanations, and validate queries against a mock database.
 
-🌐 **Live Demo:** [https://genai-analytics-toolsim.vercel.app](https://genai-analytics-toolsim.vercel.app)
+🌐 **Production URL:** [https://genai-analytics-toolsim.vercel.app](https://genai-analytics-toolsim.vercel.app)
 
 ## Table of Contents
 - [Overview](#overview)
