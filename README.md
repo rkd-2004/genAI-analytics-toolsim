@@ -1,6 +1,6 @@
 # Gen AI Analytics Tool
 
-![Project Banner](https://via.placeholder.com/1200x400) <!-- Add your banner image here -->
+![Project Banner](./images/homepage.png) <!-- Add your banner image here -->
 
 A lightweight backend service that simulates an AI-powered data query system, allowing users to process natural language queries, get explanations, and validate queries against a mock database.
 
