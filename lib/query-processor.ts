@@ -72,8 +72,6 @@ export async function validateQuery(query: string) {
 // Helper functions for query processing
 
 function convertToSQL(query: string): string {
-  // This is a simplified conversion logic
-  // In a real system, this would use NLP or LLMs
 
   if (query.includes("sales") && query.includes("region")) {
     return "SELECT region, SUM(sales_amount) FROM sales GROUP BY region ORDER BY SUM(sales_amount) DESC"
